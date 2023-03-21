@@ -1,0 +1,150 @@
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Artículos.dll.config
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Artículos.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Artículos.pdb
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\csc.exe
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\csc.exe.config
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\csc.rsp
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\csi.exe
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\csi.exe.config
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\csi.rsp
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.AppContext.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Console.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Net.Http.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\vbc.exe
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\vbc.exe.config
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\vbc.rsp
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\System.Web.Optimization.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\WebGrease.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\System.Web.Optimization.xml
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Antlr3.Runtime.pdb
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\obj\Debug\Artículos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\obj\Debug\Artículos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\obj\Debug\Artículos.csproj.CopyComplete
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\obj\Debug\Artículos.dll
+C:\Users\Usuario\Desktop\DB's\VSPrograms\Artículos\Artículos\obj\Debug\Artículos.pdb
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Artículos.dll.config
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Artículos.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Artículos.pdb
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\csc.exe
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\csc.exe.config
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\csc.rsp
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\csi.exe
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\csi.exe.config
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\csi.rsp
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.AppContext.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Console.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Net.Http.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\vbc.exe
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\vbc.exe.config
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\vbc.rsp
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Antlr3.Runtime.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Newtonsoft.Json.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\System.Web.Optimization.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\WebGrease.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\System.Web.Optimization.xml
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Newtonsoft.Json.xml
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Antlr3.Runtime.pdb
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\obj\Debug\Artículos.csproj.AssemblyReference.cache
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\obj\Debug\Artículos.csproj.CoreCompileInputs.cache
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\obj\Debug\Artículos.csproj.CopyComplete
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\obj\Debug\Artículos.dll
+C:\Users\Revan\Documents\Bases de datos I\Test copia de seguridad 2\VSArticulos-main\Artículos\obj\Debug\Artículos.pdb

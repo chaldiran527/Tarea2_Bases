@@ -1,0 +1,12 @@
+INSERT dbo.Articulo (Nombre, Precio)
+VALUES ('Desatornillador', 1500.00)
+	,('Martillo', 3000.00)
+	,('Taladro', 15000.00)
+	,('Bombillo', 1500.00)
+	,('Tubo', 2000.00)
+	,('Serrucho', 5000.00)
+	,('Brocha', 2000.00)
+	,('Candado', 3000.00)
+	,('Ladrillo', 1500.00)
+	,('Soplete', 12000.00)
+	,('Cemento', 7000.00);
