@@ -1,0 +1,2 @@
+C:\Users\Usuario\Desktop\DB\Repo2\Interfaz\Código\obj\Debug\CRUD.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\DB\Repo2\Interfaz\Código\obj\Debug\CRUD.csproj.CoreCompileInputs.cache

@@ -1,0 +1,8 @@
+﻿.grid {
+    grid-template-columns: auto auto;
+    font-family: "Open Sans";
+    border-collapse: collapse;
+}
+
+body {
+}
