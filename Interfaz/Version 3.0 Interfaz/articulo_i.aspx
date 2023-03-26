@@ -11,7 +11,7 @@
                     <asp:Label ID="Label1" runat="server" Font-Size="Medium" Text="Nombre" ForeColor="White"></asp:Label>
                 </td>
                 <td style="height: 20px">
-                    <asp:TextBox ID="TextBox1" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" placeholder="Nombre" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -19,7 +19,7 @@
                     <asp:Label ID="Label2" runat="server" Font-Size="Medium" Text="Precio" ForeColor="White"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" placeholder="Precio" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
                 </td>
             </tr>
             <tr>

@@ -39,6 +39,9 @@ namespace CRUD
         {
             SqlCommand command = new SqlCommand();
             string inPatron = "";
+            /*Usar otra variable string para el parametro del nombre y/o precio dependiendo
+            si se presiono alguno de los botones de filtro
+            talvez enviar el parametro del string*/
             command.Connection = conexion;
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = "SP_ListarArticulos";
