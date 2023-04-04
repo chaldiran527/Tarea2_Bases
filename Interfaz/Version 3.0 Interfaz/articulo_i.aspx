@@ -27,9 +27,9 @@
                     Clase</td>
                 <td style="height: 17px">&nbsp;&nbsp;
                     <asp:DropDownList ID="DropDownListClaseArticulo" runat="server" OnSelectedIndexChanged="DropDownListClaseAritculo_ListSelected" Height="31px" style="margin-left: 0" Width="198px">
-                        <asp:ListItem value="Ebanistería">Ebanistería</asp:ListItem>
-                        <asp:ListItem value="Electrico">Eléctrico</asp:ListItem>
-                        <asp:ListItem Value="Plomería">Plomería</asp:ListItem>
+                        <asp:ListItem value="Ebanisteria">Ebanistería</asp:ListItem>
+                        <asp:ListItem value="Electricos">Eléctrico</asp:ListItem>
+                        <asp:ListItem Value="Plomeria">Plomería</asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>

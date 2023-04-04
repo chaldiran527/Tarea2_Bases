@@ -21,7 +21,13 @@ namespace CRUD
                 GetListaDeArticulos();
             }
         }
-       
+       /*
+        protected void GridView1_PageIndex(object sender, GridViewPageEventArgs e)
+        {
+            GridView1.PageIndex = e.NewPageIndex;
+            GetListaDeArticulos();
+        }
+       */
         protected void DropDownListClaseAritculo_ListSelected(object sender, EventArgs e)
         {
             if (DropDownListClaseArticulo.SelectedItem.Text == "Clase de Articulo")
@@ -43,10 +49,24 @@ namespace CRUD
 
         protected void ButtonNombre_Click(object sender, EventArgs e)//boton cerrar
         {
+            SqlCommand command = new SqlCommand();
+            string inPatron = TextBoxName.Text;
 
+            command.Connection = conexion;
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = "SP_ListarArticulos";
 
-            Response.Redirect("PageLog.aspx");
-            //System.Environment.Exit(0);//Llamada para cerrar el programa desde el navegador web
+            command.Parameters.AddWithValue("inPatron", inPatron);
+            command.Parameters.AddWithValue("outResultCode", 0);
+            conexion.Open();
+            command.ExecuteNonQuery();
+            conexion.Close();
+            SqlDataAdapter sd = new SqlDataAdapter(command);
+            DataTable dt = new DataTable();
+            sd.Fill(dt);
+            GridView1.DataSource = dt;
+            GridView1.DataBind();
+            //   Response.Redirect("PageLog.aspx");
         }
 
         protected void ButtonClase_Click(object sender, EventArgs e)//boton cerrar
@@ -85,8 +105,8 @@ namespace CRUD
             string ipActual = Request.UserHostAddress;
             string nombreUsuario = HttpContext.Current.User.Identity.Name;
             double filtroCantidad = 0;
-            if (int.TryParse(TextBoxAmmount.Text, out int value)) //Se verifica que el valor del textbox2 es un numero valido
-            {////En caso de ser un numero valido asignarle el valor en double a la variable precioArticulo
+            if (int.TryParse(TextBoxAmmount.Text, out int value)) //Se verifica que el valor del textboxAmmount es un numero valido
+            {////En caso de ser un numero valido asignarle el valor en double a la variable filtroCantidad
                 filtroCantidad = double.Parse(TextBoxAmmount.Text);
             }
 

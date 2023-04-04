@@ -21,7 +21,7 @@
     <link href="StyleSheetMaster.css" rel="stylesheet" />
 
 </head>
-<body style="background-image: url('https://linuxconfig.org/wp-content/uploads/2020/03/Focal-Fossa_Plain_WP_1920x1080.png')">
+<body style="background-image: url('https://cdn.wallpapersafari.com/64/34/su0qoN.jpg')">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>

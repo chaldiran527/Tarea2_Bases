@@ -30,8 +30,9 @@ namespace CRUD.Vista
         {
 
             string nombreArticulo = TextBox1.Text;//Se asigna la hilera en el textbox a la variable nombreArticulo
+            string claseArticulo = DropDownListClaseArticulo.SelectedValue;
             double precioArticulo = 0;//Valor en cero como default  
-            if (int.TryParse(TextBox2.Text, out int value)) //Se verifica que el valor del textbox2 es un numero valido
+            if (double.TryParse(TextBox2.Text, out double value)) //Se verifica que el valor del textbox2 es un numero valido
             {////En caso de ser un numero valido asignarle el valor en double a la variable precioArticulo
                 precioArticulo = double.Parse(TextBox2.Text);
             }
@@ -44,13 +45,14 @@ namespace CRUD.Vista
 
             command.Parameters.AddWithValue("inNombre", nombreArticulo);
             command.Parameters.AddWithValue("inPrecio", precioArticulo);
+            command.Parameters.AddWithValue("inClaseArticulo", claseArticulo);
             command.Parameters.AddWithValue("outResultCode",0);
 
             conexion.Open();//Se abre la conexion 
-            command.Parameters[2].Direction = ParameterDirection.Output;//Al parametro 3 se le apunta para retornar una salida
+            command.Parameters[3].Direction = ParameterDirection.Output;//Al parametro 3 se le apunta para retornar una salida
             command.ExecuteNonQuery();//Se ejecuta el query del store procedure
             //Se convierte de 'value' a string para facilitar el procesamiento y verificacion del codigo de salida del store procedure
-            String resultCode = Convert.ToString(command.Parameters[2].Value);
+            String resultCode = Convert.ToString(command.Parameters[3].Value);
             conexion.Close();//Se cierra la conexion
 
             //Mensajes a desplegar en la pantalla del tipo de insercion realizado
