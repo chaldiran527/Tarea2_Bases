@@ -18,7 +18,7 @@
                 <td style="height: 30px">
 
                     <br />
-&nbsp;<input type="submit" runat="server" value="Filtrar x Nombre" style="width: 154px; margin-left: 17;"/></td>
+&nbsp;<input type="submit" runat="server" value="Filtrar x Nombre" style="width: 154px; margin-left: 17;"  onserverclick="ButtonNombre_Click"/></td>
             </tr>
             <tr>
                 <td class="modal-sm" style="width: 384px">
@@ -28,17 +28,23 @@
                 </td>
                 <td>
                     <br />
-                    &nbsp;<input type="submit" runat="server" value="Filtrar x Cantidad" style="width: 154px; margin-left: 17;"/></td>
+                    &nbsp;<input type="submit" runat="server" value="Filtrar x Cantidad" style="width: 154px; margin-left: 17;"  onserverclick="ButtonCant_Click"/></td>
             </tr>   
             <tr>
                 <td class="modal-sm" style="width: 384px">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBoxClass" placeholder="Clase" runat="server" Font-Size="Medium" Width="155px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:DropDownList ID="DropDownListClaseArticulo" runat="server" OnSelectedIndexChanged="DropDownListClaseAritculo_ListSelected" Height="20px" style="margin-left: 0" Width="150px">
+                  
+                        <asp:ListItem value="Ebanisteria">Ebanistería</asp:ListItem>
+                        <asp:ListItem value="Electricos">Eléctrico</asp:ListItem>
+                        <asp:ListItem Value="Plomeria">Plomería</asp:ListItem>
+                    </asp:DropDownList>
                 </td>
                 <td>
                     <br />
-                    &nbsp;<input type="submit" runat="server" value="Filtrar x Clase" style="width: 154px; margin-left: 17;"/>
+                    &nbsp;<input type="submit" runat="server" value="Filtrar x Clase" style="width: 154px; margin-left: 17;"  onserverclick="ButtonClase_Click"/>
                 </td>
             </tr>
             <tr>

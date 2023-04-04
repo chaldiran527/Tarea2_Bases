@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Drawing.Printing;
 using System.Linq;
 using System.Web;
+using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -40,13 +41,15 @@ namespace CRUD
             conexion.Close();//Se cierra la conexion
 
             string[] strInsertErrors = new string[] { "alert('Le falta ingresar el nombre de usuario');", "alert('Le falta ingresar la contraseña del usuario');", "alert('Combinación de usuario/password no existe en la Base de Datos');" };
-            if (resultCode == "0") Response.Redirect("Default.aspx");
+            if (resultCode == "0")
+            {
+                //Se hace una autenticacion con el nombre de usuario validado
+                FormsAuthentication.SetAuthCookie(userName,false);
+                Response.Redirect("Default.aspx");
+            }
             else if (resultCode == "50001") ScriptManager.RegisterStartupScript(this, this.GetType(), "script", strInsertErrors[0], true);
             else if (resultCode == "50002") ScriptManager.RegisterStartupScript(this, this.GetType(), "script", strInsertErrors[1], true);
             else if (resultCode == "50003") ScriptManager.RegisterStartupScript(this, this.GetType(), "script", strInsertErrors[2], true);
- 
-            //else if
-
         }
     }
 }

@@ -19,6 +19,13 @@ namespace CRUD.Vista
         //Hilera de conexion al sql server 
         SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-38G492P;Initial Catalog=PruebaConcepto;Integrated Security=True");
 
+        protected void DropDownListClaseAritculo_ListSelected(object sender, EventArgs e)
+        {
+            if (DropDownListClaseArticulo.SelectedItem.Text == "Clase de Articulo")
+            {
+                DropDownListClaseArticulo.Items[0].Enabled = false;
+            }
+        }
         protected void Button2_Click(object sender, EventArgs e)//boton insertar
         {
 

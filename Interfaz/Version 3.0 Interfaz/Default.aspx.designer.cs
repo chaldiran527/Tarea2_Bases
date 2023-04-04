@@ -33,13 +33,13 @@ namespace CRUD
         protected global::System.Web.UI.WebControls.TextBox TextBoxAmmount;
 
         /// <summary>
-        /// Control TextBoxClass.
+        /// Control DropDownListClaseArticulo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxClass;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListClaseArticulo;
 
         /// <summary>
         /// Control Button4.

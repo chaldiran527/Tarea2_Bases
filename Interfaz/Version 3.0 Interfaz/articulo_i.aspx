@@ -7,7 +7,7 @@
                 <td colspan="2" style="font-size: large; font-weight: bold; color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insertar Artículo</td>
             </tr>
             <tr>
-                <td style="height: 20px">
+                <td style="height: 20px; width: 462px;">
                     <asp:Label ID="Label1" runat="server" Font-Size="Medium" Text="Nombre" ForeColor="White"></asp:Label>
                 </td>
                 <td style="height: 20px">
@@ -15,7 +15,7 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td style="width: 462px">
                     <asp:Label ID="Label2" runat="server" Font-Size="Medium" Text="Precio" ForeColor="White"></asp:Label>
                 </td>
                 <td>
@@ -23,11 +23,22 @@
                 </td>
             </tr>
             <tr>
-                <td style="height: 20px"></td>
-                <td style="height: 20px"></td>
+                <td style="font-size: medium; color: #FFFFFF; height: 18px; width: 462px;">
+                    Clase</td>
+                <td style="height: 17px">&nbsp;&nbsp;
+                    <asp:DropDownList ID="DropDownListClaseArticulo" runat="server" OnSelectedIndexChanged="DropDownListClaseAritculo_ListSelected" Height="31px" style="margin-left: 0" Width="198px">
+                        <asp:ListItem value="Ebanistería">Ebanistería</asp:ListItem>
+                        <asp:ListItem value="Electrico">Eléctrico</asp:ListItem>
+                        <asp:ListItem Value="Plomería">Plomería</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
             </tr>
             <tr>
-                <td>
+                <td style="height: 20px; width: 462px;"></td>
+                <td style="height: 20px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="width: 462px">
                     <asp:Button ID="Button2" runat="server" BackColor="#333333" Font-Bold="True" ForeColor="White" Text="Insertar" Width="200px" OnClick="Button2_Click" />
                 </td>
                 <td>
