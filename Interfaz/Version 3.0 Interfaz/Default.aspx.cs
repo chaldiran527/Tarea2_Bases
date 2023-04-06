@@ -21,13 +21,7 @@ namespace CRUD
                 GetListaDeArticulos();
             }
         }
-       /*
-        protected void GridView1_PageIndex(object sender, GridViewPageEventArgs e)
-        {
-            GridView1.PageIndex = e.NewPageIndex;
-            GetListaDeArticulos();
-        }
-       */
+
         protected void DropDownListClaseAritculo_ListSelected(object sender, EventArgs e)
         {
             if (DropDownListClaseArticulo.SelectedItem.Text == "Clase de Articulo")
@@ -43,6 +37,22 @@ namespace CRUD
 
         protected void Button1_Click(object sender, EventArgs e)//boton cerrar
         {
+            string ipActual = Request.UserHostAddress;
+            SqlCommand command = new SqlCommand();
+            DateTime fechaActual = DateTime.Now;
+            string nombreUsuario = HttpContext.Current.User.Identity.Name;
+            command.Connection = conexion;
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = "SP_Logout";
+
+            command.Parameters.AddWithValue("inNombre", nombreUsuario);
+            command.Parameters.AddWithValue("inIP", ipActual);
+            command.Parameters.AddWithValue("inTime", fechaActual);
+            command.Parameters.AddWithValue("outResultCode", 0);
+
+            conexion.Open();
+            command.ExecuteNonQuery();
+            conexion.Close();
             FormsAuthentication.SignOut();
             Response.Redirect("PageLog.aspx");
         }
@@ -50,13 +60,20 @@ namespace CRUD
         protected void ButtonNombre_Click(object sender, EventArgs e)//boton cerrar
         {
             SqlCommand command = new SqlCommand();
-            string inPatron = TextBoxName.Text;
+            string filtroNombre = TextBoxName.Text;
+            string nombreUsuario = HttpContext.Current.User.Identity.Name;
+            string ipActual = Request.UserHostAddress;
+            DateTime fechaActual = DateTime.Now;
 
             command.Connection = conexion;
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "SP_ListarArticulos";
+            command.CommandText = "SP_FiltrarNombre";
 
-            command.Parameters.AddWithValue("inPatron", inPatron);
+
+            command.Parameters.AddWithValue("inFiltroNombre", filtroNombre);
+            command.Parameters.AddWithValue("inUserName", nombreUsuario);
+            command.Parameters.AddWithValue("inIP", ipActual);
+            command.Parameters.AddWithValue("inTime", fechaActual);
             command.Parameters.AddWithValue("outResultCode", 0);
             conexion.Open();
             command.ExecuteNonQuery();
@@ -66,7 +83,10 @@ namespace CRUD
             sd.Fill(dt);
             GridView1.DataSource = dt;
             GridView1.DataBind();
-            //   Response.Redirect("PageLog.aspx");
+
+
+            TextBoxAmmount.Text = "";
+            TextBoxName.Text = "";
         }
 
         protected void ButtonClase_Click(object sender, EventArgs e)//boton cerrar
@@ -97,6 +117,10 @@ namespace CRUD
             sd.Fill(dt);
             GridView1.DataSource = dt;
             GridView1.DataBind();
+
+
+            TextBoxAmmount.Text = "";
+            TextBoxName.Text = "";
         }
 
         protected void ButtonCant_Click(object sender, EventArgs e)//boton cerrar
@@ -129,6 +153,8 @@ namespace CRUD
             GridView1.DataSource = dt;
             GridView1.DataBind();
 
+            TextBoxAmmount.Text = "";
+            TextBoxName.Text = "";
         }
 
 

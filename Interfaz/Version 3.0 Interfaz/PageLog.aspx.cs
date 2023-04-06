@@ -23,7 +23,8 @@ namespace CRUD
         {
             String userName = Convert.ToString(nameBox.Value);
             String passWord = Convert.ToString(passwordBox.Value);
-
+            DateTime fechaActual = DateTime.Now;
+            string ipActual = Request.UserHostAddress;
             SqlCommand command = new SqlCommand();
 
             command.Connection = conexion;
@@ -32,12 +33,14 @@ namespace CRUD
 
             command.Parameters.AddWithValue("inNombre", userName);
             command.Parameters.AddWithValue("inContraseña", passWord);
+            command.Parameters.AddWithValue("inIP", ipActual);
+            command.Parameters.AddWithValue("inTime", fechaActual);
             command.Parameters.AddWithValue("outResultCode", 0);
 
             conexion.Open();//Se abre la conexion 
-            command.Parameters[2].Direction = ParameterDirection.Output;//Al parametro 3 se le apunta para retornar una salida
+            command.Parameters[4].Direction = ParameterDirection.Output;//Al parametro 4 se le apunta para retornar una salida
             command.ExecuteNonQuery();//Se ejecuta el query del store procedure
-            String resultCode = Convert.ToString(command.Parameters[2].Value);
+            String resultCode = Convert.ToString(command.Parameters[4].Value);
             conexion.Close();//Se cierra la conexion
 
             string[] strInsertErrors = new string[] { "alert('Le falta ingresar el nombre de usuario');", "alert('Le falta ingresar la contraseña del usuario');", "alert('Combinación de usuario/password no existe en la Base de Datos');" };

@@ -31,6 +31,9 @@ namespace CRUD.Vista
 
             string nombreArticulo = TextBox1.Text;//Se asigna la hilera en el textbox a la variable nombreArticulo
             string claseArticulo = DropDownListClaseArticulo.SelectedValue;
+            string nombreUsuario = HttpContext.Current.User.Identity.Name;
+            string ipActual = Request.UserHostAddress;
+            DateTime fechaActual = DateTime.Now;
             double precioArticulo = 0;//Valor en cero como default  
             if (double.TryParse(TextBox2.Text, out double value)) //Se verifica que el valor del textbox2 es un numero valido
             {////En caso de ser un numero valido asignarle el valor en double a la variable precioArticulo
@@ -46,13 +49,16 @@ namespace CRUD.Vista
             command.Parameters.AddWithValue("inNombre", nombreArticulo);
             command.Parameters.AddWithValue("inPrecio", precioArticulo);
             command.Parameters.AddWithValue("inClaseArticulo", claseArticulo);
+            command.Parameters.AddWithValue("inUserName", nombreUsuario);
+            command.Parameters.AddWithValue("inIP", ipActual);
+            command.Parameters.AddWithValue("inTime", fechaActual);
             command.Parameters.AddWithValue("outResultCode",0);
 
             conexion.Open();//Se abre la conexion 
-            command.Parameters[3].Direction = ParameterDirection.Output;//Al parametro 3 se le apunta para retornar una salida
+            command.Parameters[6].Direction = ParameterDirection.Output;//Al parametro 3 se le apunta para retornar una salida
             command.ExecuteNonQuery();//Se ejecuta el query del store procedure
             //Se convierte de 'value' a string para facilitar el procesamiento y verificacion del codigo de salida del store procedure
-            String resultCode = Convert.ToString(command.Parameters[3].Value);
+            String resultCode = Convert.ToString(command.Parameters[6].Value);
             conexion.Close();//Se cierra la conexion
 
             //Mensajes a desplegar en la pantalla del tipo de insercion realizado
@@ -66,6 +72,9 @@ namespace CRUD.Vista
             else if (resultCode == "50003") ScriptManager.RegisterStartupScript(this, this.GetType(), "script", strInsertErrors[2], true);
             else if (resultCode == "50004") ScriptManager.RegisterStartupScript(this, this.GetType(), "script", strInsertErrors[3], true);
             else if (resultCode == "50005") ScriptManager.RegisterStartupScript(this, this.GetType(), "script", strInsertErrors[4], true);
+
+            TextBox1.Text = "";
+            TextBox2.Text = "";
         }
 
         protected void Button1_Click(object sender, EventArgs e)//boton cerrar
