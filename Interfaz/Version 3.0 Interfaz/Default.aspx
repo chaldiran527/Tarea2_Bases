@@ -24,11 +24,11 @@
                 <td class="modal-sm" style="width: 384px; border-left: 3px double #213a5c;">
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      <br />
-                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBoxAmmount" placeholder="Cantidad" runat="server" Font-Size="Medium" Width="155px"></asp:TextBox>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBoxAmmount" placeholder="Cantidad" runat="server" Font-Size="Medium" Width="155px" OnTextChanged="ValidarTexto" AutoPostBack="true"></asp:TextBox>
                 </td>
                 <td style="border-right: 3px double  #213a5c;">
                     <br />
-                    &nbsp;<input type="submit" runat="server" value="Filtrar x Cantidad" style="width: 154px; margin-left: 17;"  onserverclick="ButtonCant_Click"/></td>
+                    &nbsp;<input type="submit" id="ButtonCant" runat="server" value="Filtrar x Cantidad" style="width: 154px; margin-left: 17;"  onserverclick="ButtonCant_Click"/></td>
             </tr>   
             <tr>
                 <td class="modal-sm" style="width: 384px; border-left: 3px double #213a5c;">

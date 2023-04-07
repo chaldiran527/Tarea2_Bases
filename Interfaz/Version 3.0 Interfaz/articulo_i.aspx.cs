@@ -17,7 +17,7 @@ namespace CRUD.Vista
 
         }
         //Hilera de conexion al sql server 
-        SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-38G492P;Initial Catalog=PruebaConcepto;Integrated Security=True");
+        SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-38G492P;Initial Catalog=SegundaTarea3;Integrated Security=True");
 
         protected void DropDownListClaseAritculo_ListSelected(object sender, EventArgs e)
         {

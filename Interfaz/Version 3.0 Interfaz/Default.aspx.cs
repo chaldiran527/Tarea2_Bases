@@ -7,6 +7,7 @@ using System.Security.Principal;
 using System.Web;
 using System.Web.Security;
 using System.Web.UI;
+using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 
 namespace CRUD
@@ -19,6 +20,17 @@ namespace CRUD
             if(!IsPostBack)
             {
                 GetListaDeArticulos();
+            }
+        }
+
+        protected void ValidarTexto(object sender, EventArgs e)
+        {
+            if ((int.TryParse(TextBoxAmmount.Text, out int value)) || string.IsNullOrWhiteSpace(TextBoxAmmount.Text))
+            {
+                ButtonCant.Disabled = false;
+            }
+            else {//Se deshabilita el boton
+                ButtonCant.Disabled = true;
             }
         }
 
@@ -158,7 +170,7 @@ namespace CRUD
         }
 
 
-        SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-38G492P;Initial Catalog=PruebaConcepto;Integrated Security=True");
+        SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-38G492P;Initial Catalog=SegundaTarea3;Integrated Security=True");
 
         void GetListaDeArticulos()
         {
